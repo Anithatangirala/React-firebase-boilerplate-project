@@ -1,0 +1,32 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-links a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.navbar-user {
+  font-weight: bold;
+  color: #333;
+}
