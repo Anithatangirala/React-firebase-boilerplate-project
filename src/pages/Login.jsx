@@ -66,7 +66,7 @@ const Login = () => {
         Sign in with Google
       </button>
 
-      <p>Don't have an account? <a href="/Signup">Sign up</a></p>
+      <p>Don't have an account? <nav>Sign up</nav></p>
     </div>
   );
 };
