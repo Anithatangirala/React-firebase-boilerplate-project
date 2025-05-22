@@ -76,7 +76,7 @@ const Signup = () => {
         Sign up with Google
       </button>
 
-      <p>Already have an account? <a href="/Login">Login</a></p>
+      <p>Already have an account? <nav>Login</nav></p>
     </div>
   );
 };
