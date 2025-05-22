@@ -66,10 +66,14 @@ const Login = () => {
         Sign in with Google
       </button>
 
+<<<<<<< HEAD
       <p>
       Don't have an account? <Link to="/Signup" style={{ color: '#4285F4' }}>Sign up</Link>
       </p>
 
+=======
+      <p>Don't have an account? <nav>Sign up</nav></p>
+>>>>>>> 098f92fb088102feac50e934608cb7e11ac362e1
     </div>
   );
 };

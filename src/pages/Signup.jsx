@@ -76,10 +76,7 @@ const Signup = () => {
         Sign up with Google
       </button>
 
-<p>
-  Don't have an account? <Link to="/Login" style={{ color: '#4285F4' }}>Login</Link>
-</p>
-
+      <p>Already have an account? <a href="/Login">Login</a></p>
     </div>
   );
 };
