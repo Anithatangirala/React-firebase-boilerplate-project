@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { auth, provider } from '../firebase';
 import { createUserWithEmailAndPassword, signInWithPopup, updateProfile } from 'firebase/auth';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate , Link } from 'react-router-dom';
 import './Signup.css';
 
 const Signup = () => {
@@ -75,8 +75,14 @@ const Signup = () => {
       >
         Sign up with Google
       </button>
+      <p>
+  Don't have an account? <Link to="/Login" style={{ color: '#4285F4' }}>Login</Link>
+</p>
 
+<<<<<<< HEAD
       <p>Already have an account? <a href="/Login">Login</a></p>
+=======
+>>>>>>> 8c93487f93f65df844979daae933b88a29e386ed
     </div>
   );
 };
